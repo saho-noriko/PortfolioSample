@@ -1,8 +1,12 @@
 /* 画面のスタイルシート */
+body {
+  -webkit-text-size-adjust: 100%;
+}
 body{
   font-family: "Noto Sans Jp","sans-serif";
   margin: 0;
   min-width: 1076px;
+  font-size: 16px;
 }
 
 .color-green{
@@ -157,4 +161,92 @@ mainタグのスタイルシート
   text-align: center;
   font-size: 15px;
   margin: 50px 0 20px;
+}
+
+/* タブレット用のスタイルシート */
+
+/* @media screen and (max-width: 767px){
+  .sub-title{
+    color: red;}
+} */
+
+
+
+/* スマホ用のスタイルシート */
+
+@media screen and (max-width: 767px){
+  .body{
+    min-width: 100%;
+  }
+
+/* ヘッダーのスタイルシート */
+.block-header{
+  
+  padding: 0 10px 10px;
+  box-shadow: 0 8px 8px -5px rgba(204, 204, 204, 0.3);
+}
+
+.block-header a {
+  font-size: 60px;
+}
+
+/* mainのスタイルシート */
+.block-main{
+  margin: 10px 0;
+}
+
+
+/* 
+ profileのスタイルシート
+  */
+
+  .box-profile{
+    padding: 0 10px;
+
+  }
+
+  .item-list img{
+    width: 40%;
+    height: 40%;
+  }
+
+  .item-list b{
+    font-size: 45px;
+  }
+
+  .item-list p{
+    font-size: 45px;
+  }
+
+  .item-list{
+    min-width: 100%;
+    
+  }
+
+  .icon-list{
+    min-width: 100%;
+    
+  }
+
+  .icon-list li{
+    margin-right: 80px;
+    
+  }
+
+  .icon-list img{
+    width: 200%;
+    height: 200%;
+    text-align: center;
+    
+  }
+  /* 
+ worksのスタイルシート
+  */
+  .works-list{
+    min-width: 100%;
+  }
+
+.works-list li{
+  min-width: 100%;
+}
 }
