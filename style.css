@@ -1,12 +1,11 @@
 /* 画面のスタイルシート */
-body {
-  -webkit-text-size-adjust: 100%;
+
 }
 body{
   font-family: "Noto Sans Jp","sans-serif";
   margin: 0;
   min-width: 1076px;
-  font-size: 16px;
+  
 }
 
 .color-green{
@@ -74,20 +73,16 @@ mainタグのスタイルシート
 
 .icon-list{
   list-style: none;
-  width: 200px;
+  width: 100px;
   padding: 0;
   display: flex;
-  max-width: 347px;
+  max-width: 247px;
   margin: 30px auto;
   justify-content: center;
   align-items: center;
   
 }
 
-.icon-list img{
-  width: 100%;
-  height: 100%;
-}
 
 .item-list li{
   margin-right: 22px;
@@ -132,7 +127,7 @@ mainタグのスタイルシート
 
 .works-list li h3{
   font-size: 24px;
-  margin: 10px;
+  margin: 10px 0;
 
 }
 
@@ -187,12 +182,12 @@ mainタグのスタイルシート
 }
 
 .block-header a {
-  font-size: 60px;
+  font-size: 31px;
 }
 
 /* mainのスタイルシート */
 .block-main{
-  margin: 10px 0;
+  margin: 50px 0;
 }
 
 
@@ -205,48 +200,59 @@ mainタグのスタイルシート
 
   }
 
-  .item-list img{
-    width: 40%;
-    height: 40%;
-  }
-
   .item-list b{
-    font-size: 45px;
+    font-size: 18px;
   }
 
   .item-list p{
-    font-size: 45px;
+    font-size: 18px;
   }
 
   .item-list{
-    min-width: 100%;
+    max-width: 100%;
     
   }
 
   .icon-list{
-    min-width: 100%;
+    max-width: 100%;
     
   }
 
   .icon-list li{
-    margin-right: 80px;
+    margin-right: 25px;
     
   }
 
-  .icon-list img{
-    width: 200%;
-    height: 200%;
-    text-align: center;
-    
-  }
+ 
   /* 
  worksのスタイルシート
   */
-  .works-list{
-    min-width: 100%;
-  }
+
+.box-works {
+  margin: 60px 0 0;
+  padding: 0 10px;
+}
+.works-list{
+   max-width: 100%;
+}
 
 .works-list li{
-  min-width: 100%;
+  max-width: 100%;
+  float: none;
+  margin-right: 0;
+  margin-bottom: 30px;
 }
+.works-list li h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.works-list li span {
+  font-size: 14px;
+}
+
+
+
+
+
 }
