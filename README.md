@@ -5,18 +5,12 @@ PortfolioSample
 
 ## デモ
 ［webサイトを見る］(https://tech-portfoliosample.herokuapp.com/)
+![122633141-eb769b00-d111-11eb-8194-a9051e55c0cf](https://user-images.githubusercontent.com/85377899/122633236-6f308780-d112-11eb-91cc-a99df2460557.png)
 
 ## 利用している技術
-使った言語やツールなどのバージョンを記載する。
+HTML/CSS
 
 ## インスール方法
-インストールの仕方を記載する。
+そのままindex.htmlをブラウザで開くと閲覧できます。
 
-### その他に記載すると良い事項
-* システム構成図
-* 使い方
-    * インストール方法
-    * テスト方法
-    * デプロイ方法
-* こだわりポイント
-* ライセンス情報
+
